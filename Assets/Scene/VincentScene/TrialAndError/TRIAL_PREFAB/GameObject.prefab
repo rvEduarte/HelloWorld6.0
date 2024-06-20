@@ -774,8 +774,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b774a6163285d294f8165ed61e2d0778, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PauseMenuPanel: {fileID: 0}
-  PlayerPlayPanel: {fileID: 0}
+  pauseMenuPanel: {fileID: 0}
+  playerPlayPanel: {fileID: 0}
+  pause: 0
 --- !u!95 &7208469825935905045
 Animator:
   serializedVersion: 5
@@ -18469,7 +18470,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Loading....
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5f7fc8a9eb91ab24aa396898dc3eb69e, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: -3162749808755946902, guid: 5f7fc8a9eb91ab24aa396898dc3eb69e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -31309,7 +31310,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: exit
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5f7fc8a9eb91ab24aa396898dc3eb69e, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: -3162749808755946902, guid: 5f7fc8a9eb91ab24aa396898dc3eb69e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -31888,7 +31889,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Menu
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5f7fc8a9eb91ab24aa396898dc3eb69e, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: -3162749808755946902, guid: 5f7fc8a9eb91ab24aa396898dc3eb69e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -32098,8 +32099,17 @@ MonoBehaviour:
   yourDrop2: {fileID: 5928276067353429550}
   yourCanvas: {fileID: 8574930580688611015}
   yourString: {fileID: 5692251532125614507}
+  yourText1: {fileID: 0}
+  yourText2: {fileID: 0}
+  yourText3: {fileID: 0}
+  yourText4: {fileID: 0}
+  yourText5: {fileID: 0}
+  yourText6: {fileID: 0}
+  yourPanel: {fileID: 0}
+  yourHint: {fileID: 0}
   clicked: 0
   condition: 0
+  rightFire: {fileID: 0}
 --- !u!114 &2460321438930408819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32375,8 +32385,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b774a6163285d294f8165ed61e2d0778, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PauseMenuPanel: {fileID: 1527152908317735575}
-  PlayerPlayPanel: {fileID: 7706790421081126526}
+  pauseMenuPanel: {fileID: 0}
+  playerPlayPanel: {fileID: 0}
+  pause: 0
 --- !u!1 &5685429020793241471
 GameObject:
   m_ObjectHideFlags: 0
@@ -43188,7 +43199,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: options
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5f7fc8a9eb91ab24aa396898dc3eb69e, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: -3162749808755946902, guid: 5f7fc8a9eb91ab24aa396898dc3eb69e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -43473,7 +43484,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Music
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4e419adacbcf8954bbf5403a104b2981, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: 1299867615157331262, guid: 4e419adacbcf8954bbf5403a104b2981, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -44019,8 +44030,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b774a6163285d294f8165ed61e2d0778, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PauseMenuPanel: {fileID: 0}
-  PlayerPlayPanel: {fileID: 0}
+  pauseMenuPanel: {fileID: 0}
+  playerPlayPanel: {fileID: 0}
+  pause: 0
 --- !u!114 &5548496525117237307
 MonoBehaviour:
   m_ObjectHideFlags: 0
