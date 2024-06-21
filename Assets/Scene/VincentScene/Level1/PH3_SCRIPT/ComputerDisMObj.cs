@@ -1,25 +1,51 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Xml.Linq;
+using TarodevController;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class ComputerDisMObj : MonoBehaviour
 {
+    public GameObject exla;
 
-    public GameObject movingObject;
+    public GameObject Hint;
+
+    public GameObject answerPanel;
+
+    public GameObject player;
+
+    public bool inside = false;
+
+    //public GameObject movingObject;
     void Start()
     {
-        movingObject.SetActive(false);
+        answerPanel.SetActive(false);
+       // movingObject.SetActive(false);
     }
 
-    void Update()
+    private void Update()
     {
-        
+        if (inside == true)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                player.SetActive(false);
+                answerPanel.SetActive(true);
+                Debug.Log("TITE SI KARL");
+            }
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.name.Equals("Player2.0"))
         {
-            movingObject.SetActive(true);
+            exla.SetActive(false);
+            Hint.SetActive(true);
+
+            inside = true;
+            //movingObject.SetActive(true);
         }
     }
 
