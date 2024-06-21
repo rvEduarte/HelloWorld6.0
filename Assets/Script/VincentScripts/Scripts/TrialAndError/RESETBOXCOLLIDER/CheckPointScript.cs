@@ -10,7 +10,7 @@ public class CheckPointScript : MonoBehaviour
     {
         respawn = GameObject.FindGameObjectWithTag("respawn").GetComponent<RespawnScript>();
     }
-    void Start()
+    void Start() 
     {
         
     }
