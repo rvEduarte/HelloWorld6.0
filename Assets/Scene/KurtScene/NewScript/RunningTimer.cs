@@ -25,10 +25,12 @@ public class RunningTimer : MonoBehaviour
             int seconds = Mathf.FloorToInt(elapsedTime % 60);
             timerTxt.text = string.Format("{0:00}:{1:00}", minutes, seconds);
             
-            if(timerTxt.text == string.Format("{0:00}:{0:05}", minutes, seconds))
+            
+            
+            /*if(timerTxt.text == string.Format("{0:00}:{0:05}", minutes, seconds))     //FUTURE CODE NEEDED FOR ACQUIRING THE SET TIMER
             {
                 Debug.Log("super10");
-            }
+            }*/
         }
     }
 }
