@@ -13,6 +13,8 @@ public class RunningTimer : MonoBehaviour
     float elapsedTime;
 
     [SerializeField] private Pause pauseMenu;
+
+    //string pepe = "0:10";
   
     void Update()
     {
@@ -22,6 +24,11 @@ public class RunningTimer : MonoBehaviour
             int minutes = Mathf.FloorToInt(elapsedTime / 60);
             int seconds = Mathf.FloorToInt(elapsedTime % 60);
             timerTxt.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+            
+            if(timerTxt.text == string.Format("{0:00}:{0:05}", minutes, seconds))
+            {
+                Debug.Log("super10");
+            }
         }
     }
 }
