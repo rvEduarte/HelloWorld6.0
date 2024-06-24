@@ -35,4 +35,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/KurtScene/C# Scenes/C# Scene1.unity
     guid: 44edffc108ee7934c89440cf071ce3d2
+  - enabled: 1
+    path: Assets/etits/Test/Scene/Test1.unity
+    guid: 35081e7e054af0b4baa76c973c65f11c
+  - enabled: 1
+    path: Assets/etits/Test/Scene/Test2.unity
+    guid: 29ba249a02e1f044a88c1eab3704d7a8
+  - enabled: 1
+    path: Assets/etits/Test/Scene/CSharp.unity
+    guid: 737cfcb7097451e4eaa98229142986d3
   m_configObjects: {}
